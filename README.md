@@ -1,51 +1,74 @@
-# 📦 PowerBI - Sales Profit Packaging Analysis
+# 📦 PowerBI-Sales-Profit-Packaging-Analysis
 
-Interactive Power BI dashboard analyzing sales, profit, product packaging, regions, and delivery modes.  
-Includes slicers, statistical metrics, and logistical KPIs.
+This Power BI dashboard provides a comprehensive analysis of sales performance, profit distribution, shipping cost impact, and packaging types across product sub-categories and regions.
+
+It includes advanced visualizations with slicers, conditional formatting, and business KPIs.
+
+---
+
+## 📁 Dataset Overview
+
+The dataset supports multidimensional analysis using attributes such as:
+
+- Product Category & Sub-category  
+- Region, Province, and Shipping Mode  
+- Sales, Profit, Discount, Shipping Cost  
+- Packaging Container  
+- Date hierarchy for drilldowns  
+- Built-in slicers and KPIs for business insight  
 
 ---
 
 ## 📊 Visualizations
 
-### 1. Average of Sales by Product Sub-category  
-![Average](./screenshots/Average of Sales by Product Sub-category.png)
+### 📈 Average of Sales by Product Sub-category  
+![Average](screenshots/Average of Sales by Product Sub-category)
 
 ---
 
-### 2. Median of Profit, Standard deviation of Profit and Sum by Produst Sub-category  
-![Median](./screenshots/Median of Profit. Standard deviation of Profit and Sum by Produst Sub-category.png)
+### 📐 Median of Profit, Standard Deviation of Profit and Sum by Product Sub-category  
+![Median](screenshots/Median of Profit. Standard deviation of Profit and Sum by Produst Sub-category)
 
 ---
 
-### 3. Sum of Sales: Sum of Profit of Sales by Product Container and Product category  
-![Sum Sales](./screenshots/Sum of Sales: Sum of Profit of Sales by Product Container and Product category.png)
+### 📦 Sum of Sales & Sum of Profit of Sales by Product Container and Product Category  
+![SumSalesProfit](screenshots/Sum of Sales: Sum of Profit of Sales by Product Container and Product category)
 
 ---
 
-### 4. Sum of Shipping cost and Count of Product category by Region and Product container  
-![Shipping](./screenshots/Sum of Shipping cost and Count of Product category by Region and Product container.png)
+### 🚚 Sum of Shipping Cost and Count of Product Category by Region and Product Container  
+![ShippingCost](screenshots/Sum of Shipping cost and Count of Product category by Region and Product container)
 
 ---
 
-### 5. Sum of profit by Product Sub-category  
-![Profit](./screenshots/Sum of profit by Product Sub-category.png)
+### 💰 Sum of Profit by Product Sub-category  
+![ProfitSum](screenshots/Sum of profit by Product Sub-category)
 
 ---
 
-### 6. count of Product category by Region - Region and Product category  
-![CategoryRegion](./screenshots/count of Product category by Region - Region and Product category.png)
+### 🗂️ Count of Product Category by Region  
+![ProductByRegion](screenshots/count of Product category by Region - Region and Product category)
 
 ---
 
-### 7. count of Region and Sum of Sles by Product category - Sales by Province  
-![RegionSales](./screenshots/count of Region and Sum of Sles by Product category - Sales by Province.png)
+### 🌍 Count of Region and Sum of Sales by Product Category (Sales by Province)  
+![RegionProvince](screenshots/count of Region and Sum of Sles by Product category - Sales by Province)
 
 ---
 
-### 8. count of Ship Mode by Region and Shipping cost  
-![ShipMode](./screenshots/count of Ship Mode by Region and Shipping cost.png)
+### 🚛 Count of Ship Mode by Region and Shipping Cost  
+![ShipMode](screenshots/count of Ship Mode by Region and Shipping cost)
 
 ---
 
-## 🗂 Folder Structure
+## 📝 Notes
 
+- All visuals were built using `ergasia_3.pbix`.  
+- The `.gitkeep` is used to preserve the `screenshots/` folder structure.  
+- All screenshot titles are preserved as uploaded for reference consistency.
+
+---
+
+## 🪪 License
+
+MIT License. See [LICENSE](LICENSE) for details.
