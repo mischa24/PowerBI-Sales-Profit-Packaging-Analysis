@@ -1,3 +1,10 @@
+![MIT License](https://img.shields.io/badge/license-MIT-green)
+![Made with Power BI](https://img.shields.io/badge/Made%20with-Power%20BI-yellow)
+![Focus](https://img.shields.io/badge/Focus-Sales_&_Profit-blue)
+![Packaging](https://img.shields.io/badge/Packaging-Analysis-orange)
+![KPIs](https://img.shields.io/badge/KPIs-Included-blueviolet)
+![Advanced Formatting](https://img.shields.io/badge/Advanced-Formatting-lightgrey)
+
 # PowerBI Sales, Profit & Packaging Analysis
 
 An interactive Power BI dashboard for comprehensive analysis of:
