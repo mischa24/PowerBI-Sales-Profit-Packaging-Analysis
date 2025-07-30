@@ -1,70 +1,70 @@
-# 📦 Power BI - Sales & Profit Analysis by Packaging and Region
+# 📦 PowerBI - Sales Profit Packaging Analysis
 
-This Power BI dashboard analyzes **sales performance**, **product profitability**, and **shipping cost impact** across **packaging types** and **regions**.  
-It incorporates dynamic filtering, slicers, statistical aggregations, and color-coded visuals to support business decisions.
-
----
-
-## 📁 Dataset Highlights
-
-- Product category & sub-category  
-- Packaging types (containers)  
-- Regional data: Region & Province  
-- Financial metrics: Sales, Profit, Discount, Shipping Cost  
-- Customer & Date-related fields  
-- Pre-built hierarchies & delivery modes
+Interactive Power BI dashboard analyzing sales, profit, product packaging, regions, and delivery methods.  
+Includes slicers, advanced metrics (mean, median, std dev), and logistics insights.
 
 ---
 
-## 📊 Key Visualizations
+## 📂 Dataset Overview
 
-### 📈 Average of Sales by Product Sub-category  
-Shows mean sales across all sub-categories  
-![Average](./screenshots/Average of Sales by Product Sub-category.png)
-
----
-
-### 📈 Median of Profit, Std Deviation & Sum of Sales  
-Includes spread and central tendency metrics  
-![Median](./screenshots/Median of Profit. Standard deviation of Profit and Sum by Produst Sub-category.png)
+- Sales & Profit by Product Sub-category  
+- Packaging types (Containers)  
+- Regions & Provinces  
+- Delivery (Shipping Cost, Ship Mode)  
+- Statistical metrics: Mean, Median, Std Deviation  
+- Predefined hierarchies
 
 ---
 
-### 📦 Sales & Profit by Product Container & Category  
-Correlates container type to profitability  
-![Sales and Profit](./screenshots/Sum of Sales: Sum of Profit of Sales by Product Container and Product category.png)
+## 📊 Visualizations
+
+### 1. Average of Sales by Product Sub-category  
+Shows the average sales across all product sub-categories  
+![Avg Sales](./screenshots/Average of Sales by Product Sub-category.png)
 
 ---
 
-### 🚚 Shipping Cost & Product Count by Region and Container  
-Explores logistics impact by packaging type  
+### 2. Median of Profit, Standard Deviation of Profit, and Sum by Product Sub-category  
+Combines three descriptive statistics for product sub-categories  
+![Median Profit](./screenshots/Median of Profit. Standard deviation of Profit and Sum by Produst Sub-category.png)
+
+---
+
+### 3. Sum of Sales and Profit by Product Container and Product Category  
+Analyzes container type impact on profitability  
+![Sales Container](./screenshots/Sum of Sales: Sum of Profit of Sales by Product Container and Product category.png)
+
+---
+
+### 4. Sum of Shipping Cost and Count of Product Category by Region and Product Container  
+Logistics breakdown per region and packaging  
 ![Shipping Cost](./screenshots/Sum of Shipping cost and Count of Product category by Region and Product container.png)
 
 ---
 
-### 💰 Profit by Product Sub-category  
-Simple and clean profit distribution  
-![Profit](./screenshots/Sum of profit by Product Sub-category.png)
+### 5. Sum of Profit by Product Sub-category  
+Simple and direct profit distribution  
+![Profit Sum](./screenshots/Sum of profit by Product Sub-category.png)
 
 ---
 
-### 🌍 Product Count by Region  
-Breakdown of product categories per region  
-![Product Count](./screenshots/count of Product category by Region - Region and Product category.png)
+### 6. Count of Product Category by Region  
+How many categories exist per region  
+![Category Region](./screenshots/count of Product category by Region - Region and Product category.png)
 
 ---
 
-### 🗺️ Region & Category Sales  
-Multi-view combining region, province, and category  
-![Region Category](./screenshots/count of Region and Sum of Sles by Product category - Sales by Province - Sales by Region and ....png)
+### 7. Count of Region and Sum of Sales by Product Category – Sales by Province  
+Combined regional breakdown and sales metrics  
+![Region Sales](./screenshots/count of Region and Sum of Sles by Product category - Sales by Province.png)
 
 ---
 
-### 🚢 Ship Mode Analysis by Region  
-Analyzes delivery preferences and shipping behavior  
+### 8. Count of Ship Mode by Region and Shipping Cost  
+Analysis of delivery methods and their costs  
 ![Ship Mode](./screenshots/count of Ship Mode by Region and Shipping cost.png)
 
 ---
 
-## 📂 Folder Structure
+## 📁 Repository Structure
 
