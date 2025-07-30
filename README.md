@@ -1,77 +1,78 @@
-# 📦 PowerBI-Sales-Profit-Packaging-Analysis
+# 📦 PowerBI Sales, Profit & Packaging Analysis
 
-Interactive Power BI dashboard for analyzing sales, profit, shipping costs, and packaging methods across regions and product sub-categories.
+An interactive Power BI dashboard for comprehensive analysis of sales performance, profitability metrics, shipping costs, and packaging methods across different regions and product categories.
 
-Features include:
+## ✨ Key Features
 
-- Multi-level visualizations (average, sum, median, std. deviation)
-- Filtering by Region, Product Category, and Shipping Mode
-- Conditional formatting and advanced slicers
-- Focus on packaging containers and delivery cost analysis
+- **Multi-dimensional analysis** (averages, sums, medians, standard deviations)
+- **Dynamic filtering** by Region, Product Category, and Shipping Mode
+- **Advanced visualizations** with conditional formatting and interactive slicers
+- **Packaging-focused metrics** with container type and delivery cost analysis
+- **Drill-down capabilities** across all hierarchical dimensions
 
 ---
 
 ## 📁 Dataset Overview
 
-- Product Category / Sub-category  
-- Region & Province  
-- Profit, Sales, Discount, Shipping Cost  
-- Product Container & Ship Mode  
-- Hierarchies and drilldowns across attributes
+The analysis utilizes the following data dimensions:
+
+- **Product Information**  
+  - Category & Sub-category hierarchy  
+  - Packaging container types  
+
+- **Geographical Data**  
+  - Regions & Provinces  
+
+- **Financial Metrics**  
+  - Sales, Profit, Discounts  
+  - Shipping costs  
+
+- **Logistics**  
+  - Ship modes (Standard, Express, etc.)  
 
 ---
 
-## 📊 Visualizations
+## 📊 Dashboard Visualizations
 
-### 📈 Average of Sales by Product Sub-category  
-![Average of Sales](screenshots/Average of Sales by Product Sub-category.png)
+### Sales Performance
+| Visualization | Description | Screenshot |
+|--------------|------------|------------|
+| **Average Sales by Sub-category** | Shows normalized sales performance across product types | ![Average Sales](screenshots/Average%20of%20Sales%20by%20Product%20Sub-category.png) |
+| **Sales & Profit by Container** | Reveals packaging efficiency metrics | ![Sales Profit](screenshots/Sum%20of%20Sales%20Sum%20of%20Profit%20by%20Product%20Container.png) |
 
----
+### Profit Analysis
+| Visualization | Description | Screenshot |
+|--------------|------------|------------|
+| **Profit Distribution** | Median and variability analysis by sub-category | ![Profit Stats](screenshots/Median%20and%20StdDev%20of%20Profit.png) |
+| **Profit by Sub-category** | Total profitability breakdown | ![Profit Sum](screenshots/Sum%20of%20profit%20by%20Product%20Sub-category.png) |
 
-### 📐 Median of Profit, Standard Deviation of Profit and Sum by Product Sub-category  
-![Median of Profit](screenshots/Median of Profit. Standard deviation of Profit and Sum by Produst Sub-category.png)
+### Regional Metrics
+| Visualization | Description | Screenshot |
+|--------------|------------|------------|
+| **Product Distribution** | Category prevalence by region | ![Regional Count](screenshots/Count%20of%20Product%20category%20by%20Region.png) |
+| **Provincial Sales** | Geographic sales performance | ![Province Sales](screenshots/Sales%20by%20Province.png) |
 
----
-
-### 💰 Sum of Sales & Profit by Product Container and Product Category  
-![Sum of Sales & Profit](screenshots/Sum of Sales: Sum of Profit of Sales by Product Container and Product category.png)
-
----
-
-### 🚛 Sum of Shipping Cost and Count of Product Category by Region and Product Container  
-![Shipping Cost + Count](screenshots/Sum of Shipping cost and Count of Product category by Region and Product container.png)
-
----
-
-### 📊 Sum of Profit by Product Sub-category  
-![Sum of Profit](screenshots/Sum of profit by Product Sub-category.png)
-
----
-
-### 🗂️ Count of Product Category by Region  
-![Count by Region](screenshots/count of Product category by Region - Region and Product category.png)
+### Shipping Analysis
+| Visualization | Description | Screenshot |
+|--------------|------------|------------|
+| **Shipping Costs** | Logistics expenses by container type | ![Shipping Cost](screenshots/Sum%20of%20Shipping%20cost%20by%20Container.png) |
+| **Ship Mode Distribution** | Transportation method preferences | ![Ship Modes](screenshots/Count%20of%20Ship%20Mode%20by%20Region.png) |
 
 ---
 
-### 🌍 Count of Region and Sum of Sales by Product Category - Sales by Province  
-![Region and Province](screenshots/count of Region and Sum of Sles by Product category - Sales by Province.png)
+## 🛠️ Technical Details
+
+- **Main report file**: `ergasia_3.pbix`
+- **Key focus areas**:
+  - Packaging type impact on profitability
+  - Sub-category performance benchmarking
+  - Region-specific KPI analysis
+- **File organization**:
+  - Screenshots follow descriptive naming conventions
+  - `.gitkeep` maintains empty directory structure
 
 ---
 
-### 🚚 Count of Ship Mode by Region and Shipping Cost  
-![Ship Mode](screenshots/count of Ship Mode by Region and Shipping cost.png)
+## 📜 License
 
----
-
-## 📌 Notes
-
-- Main report: `ergasia_3.pbix`
-- This analysis emphasizes packaging type, product sub-category profitability, and region-specific KPIs.
-- Screenshots preserved with descriptive filenames.
-- `.gitkeep` maintains folder structure for empty repo setups.
-
----
-
-## 🪪 License
-
-Licensed under the MIT License. See [LICENSE](LICENSE) for more.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
